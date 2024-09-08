@@ -1,0 +1,22 @@
+Atividades para Fixação js
+
+Atividade 1: Calculadora de Juros
+Crie um sistema que calcule os juros sobre um valor. 
+O sistema deve armazenar o nome do cliente, o valor do empréstimo, 
+e os juros aplicados. Os juros devem ser calculados a uma taxa fixa de 5%.
+Cada item cadastrado deve ser colocado em um lista com possibiliade de ser removido
+da mesma.
+
+Atividade 2: Calculadora de Gorjeta
+Implemente um sistema que calcula a gorjeta sobre o valor de uma conta de restaurante. 
+O sistema deve registrar o nome do cliente, o valor da conta e a gorjeta, 
+que deve ser calculada a uma taxa fixa de 15%.
+Cada item cadastrado deve ser colocado em um lista com possibiliade de ser removido
+da mesma e deverá ter um botão de limpar a lista.
+
+Atividade 3: Calculadora de Imposto
+Desenvolva um sistema que calcule o imposto sobre o valor de um produto. 
+O sistema deve registrar o nome do produto, o valor do produto e o imposto calculado a uma 
+taxa fixa de 12%.
+Cada item cadastrado deve ser colocado em um lista com possibiliade de ser removido
+da mesma e deverá ter um botão de limpar a lista.

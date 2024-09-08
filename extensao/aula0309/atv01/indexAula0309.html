@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="indexAula0309.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div>
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">CALCULADORA DE JUROS</h5>
+                <form>
+                    <div class="form-group">
+                        <label for="nome" class="mx-auto">Nome do cliente</label>
+                        <input type="text" class="form-control" id="name" placeholder="Nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="valor">Valor do empréstimo</label>
+                        <input type="number" class="form-control" id="value" placeholder="R$ 0,00">
+                    </div>
+                </form>
+
+                <button type="button" class="btn btn-primary btn-sm" onclick="adicionarItem()">Calcular
+                    empréstimo</button>
+                <button type="button" class="btn btn-secondary btn-sm" onclick="excluirItem()">Limpar consulta</button>
+            </div>
+        </div>
+
+        <div class="tabela">
+            <table id="tabela">
+                <tr>TABELA DE CLIENTES</tr>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome cliente</th>
+                    <th>Valor empréstimo</th>
+                    <th>Valor com juros</th>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <script src="indexAula0309.js"></script>
+        </div>
+
+    </div>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
